@@ -1,0 +1,7 @@
+<suite name="core">
+    <test name="testngTest">
+        <classes>
+            <class name="core.SelenideTest"/>
+        </classes>
+    </test>
+</suite>
