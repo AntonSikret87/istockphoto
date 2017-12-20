@@ -18,13 +18,13 @@ public class TestBase {
     public void openBrowser(String browser) {
 
         System.out.println(browser);
-
+        System.out.println(browser);
         try {
-            if (browser.equalsIgnoreCase("Firefox")) {
-                setBrowserFF();
-                setWait();
-            } else if (browser.equalsIgnoreCase("chrome")) {
+            if (browser.equalsIgnoreCase("chrome")) {
                 setBrowserChrome();
+                setWait();
+            } else if (browser.equalsIgnoreCase("Firefox")) {
+                setBrowserFF();
                 setWait();
             }
         } catch (WebDriverException e) {
